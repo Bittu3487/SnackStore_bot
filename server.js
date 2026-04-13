@@ -59,6 +59,11 @@ const menu = {
   
 };
 
+
+app.get("/", (req, res) => {
+  res.send("SnackBot Backend Running 🚀");
+});
+
 // ─────────────────────────────
 // SESSION STORE
 // ─────────────────────────────
